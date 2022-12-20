@@ -1,0 +1,2 @@
+-- # write your SQL statement here: you are given a table 'quarterof' with column 'month', return a table with column 'month' and your result in a column named 'res'.
+SELECT month, (month + 2) / 3 AS res FROM quarterof
