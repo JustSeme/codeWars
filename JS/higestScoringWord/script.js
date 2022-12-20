@@ -15,8 +15,8 @@ function high(x) {
         const scoreOfWord = el.split('').map((char) => char.charCodeAt(0) - 96).reduce((accum, current) => accum + current)
         generalScore.push(scoreOfWord)
     })
-    const indexOfHighestNum = generalScore.indexOf(Math.max(...generalScore))
-    return words[indexOfHighestNum]
+    const indexOfHighestWord = generalScore.indexOf(Math.max(...generalScore))
+    return words[indexOfHighestWord]
 }
 
 console.log(high('what time are we climbing up the volcano'));
