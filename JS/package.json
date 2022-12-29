@@ -1,0 +1,11 @@
+{
+  "name": "codeWarsTasks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "justSeme",
+  "license": "MIT",
+  "devDependencies": {
+    "node": "^19.3.0",
+    "nodemon": "^2.0.20"
+  }
+}
